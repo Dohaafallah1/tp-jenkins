@@ -9,8 +9,8 @@ pipeline {
     stages {
         stage('Cloning Git') {
             steps {
-                git branch: 'main',
-                    credentialsId: 'houmam',  // ID des credentials GitHub dans Jenkins
+                git branch: 'master',
+                    credentialsId: 'dohaf',  // ID des credentials GitHub dans Jenkins
                     url: 'https://github.com/Dohaafallah1/tp-jenkins.git' 
             }
         }
